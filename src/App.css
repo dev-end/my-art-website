@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -30,4 +30,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* main container on which sidebar and data bar will be rendered */
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+/*right side data section  */
+.dataBar {
+
+  position: absolute;
+  left:18%;
+  width:82%;
+  height:100%;
+  float: left;
+  background-color: rgb(58, 124, 102);
+  opacity: 0.5;
+  
+  overflow: auto;
+  resize: both;
+}
+
+/* my image  */
+.aboutImage{
+  height: 100%;
+  max-width: 100%;
+}
+
+.resizableImage {
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  height: 300px;
+  resize: both;
+  overflow: auto;
 }
